@@ -1,15 +1,8 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Scanner;
-
 /**
- * Created by Aditya on 012, 12 Dec, 2016.
+ * Created by Aditya on 4 Feb, 2017.
  */
 public class ClassGenerator {
-    static boolean classEnd = true;
+    private static boolean classEnd = true;
 
     public static void main(String[] args) {
         generateClass("newClass", new String[]{"public"});
