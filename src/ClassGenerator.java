@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by Aditya on 012, 12 Dec, 2016.
  */
-public class FileSplitter {
+public class ClassGenerator {
     static boolean classEnd = true;
 
     public static void main(String[] args) {
